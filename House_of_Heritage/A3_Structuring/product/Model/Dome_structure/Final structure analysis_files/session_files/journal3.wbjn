@@ -1,0 +1,43 @@
+# encoding: utf-8
+# 2020 R2
+SetScriptVersion(Version="20.2.221")
+system1 = GetSystem(Name="SYS")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="Adobe Brick")
+matlProp1 = material1.GetProperty(Name="Elasticity")
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["150 [MPa]"]])
+matlProp2 = material1.GetProperty(Name="Density")
+matlProp2.SetData(
+    Variables=["Density"],
+    Values=[["14.8 [kg m^-3]"]])
+matlProp2.Delete()
+matlProp3 = material1.CreateProperty(
+    Name="Density",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp3.SetData(
+    Index=-1,
+    Variables=["Density"],
+    Values=[["1530 [kg m^-3]"]])
+matlProp4 = material1.CreateProperty(
+    Name="Tensile Ultimate Strength",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp4.Delete()
+matlProp5 = material1.GetProperty(Name="Compressive Yield Strength")
+matlProp5.SetData(
+    Variables=["Compressive Yield Strength"],
+    Values=[["3.67 [MPa]"]])
+matlProp6 = material1.GetProperty(Name="Tensile Yield Strength")
+matlProp6.Delete()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+Save(Overwrite=True)
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+Save(Overwrite=True)

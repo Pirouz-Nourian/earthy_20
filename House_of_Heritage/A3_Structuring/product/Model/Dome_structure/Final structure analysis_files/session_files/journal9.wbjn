@@ -1,0 +1,42 @@
+# encoding: utf-8
+# 2020 R2
+SetScriptVersion(Version="20.2.221")
+system1 = GetSystem(Name="SYS")
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+ClearMessages()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1.Edit()
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="Adobe Brick")
+matl1 = material1.Duplicate(TargetContainer=engineeringData1)
+matl1.DisplayName = "Adobe Brick STRONG"
+matlProp1 = matl1.GetProperty(Name="Elasticity")
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["211 [MPa]"]])
+matlProp2 = matl1.GetProperty(Name="Density")
+matlProp2.SetData(
+    Variables=["Density"],
+    Values=[["1700 [kg m^-3]"]])
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["200 [MPa]"]])
+modelComponent1.Refresh()
+model1.Edit()
+matlProp2.SetData(
+    Variables=["Density"],
+    Values=[["1530 [kg m^-3]"]])
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["211 [MPa]"]])
+modelComponent1.Refresh()
+model1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+modelComponent1.Refresh()
+model1.Edit()
+Save(Overwrite=True)

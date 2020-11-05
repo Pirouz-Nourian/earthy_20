@@ -1,0 +1,3 @@
+## Floor Plan
+This folder contains the final refined floorplan. There where a few changes made to perfect the floor plan. To start the thicknesses of the walls were changed depending on the results from the structural analysis. Another change was the shift of the axis to aline the entrance sight line to match with the riqwas of the courtyards. For the space where future expansion would be possible we created an other connection with the main courtyard, this allows for better movement when the expansion is in place. An added feature is the play are next to the childcare with an benched wall surrounding it. Finally the public square was improved to have a more balanced way of going from the public road to a semi public walkway and final entering the lobby or shops.
+
