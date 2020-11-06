@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2018 Earthy 2018 Contributors
+Copyright (c) 2020 Earthy 2020 Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of the software part of this project, which includes codes, code snippets, procedural workflows, and their combination, to deal
