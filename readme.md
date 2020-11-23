@@ -1,4 +1,5 @@
-# [AR3B011](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48158&_NotifyTextSearch_): Earthy: MSc3 Design Studio 2020-21
+# [AR3B011](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48158&_NotifyTextSearch_): Earthy: Generative Design for Earth and Masonry Architecture 
+MSc3 Design Studio 2020-21, !Logo](https://octodex.github.com/images/bannekat.png)
 
 <img src="_course_info/image1.png"/>
 
