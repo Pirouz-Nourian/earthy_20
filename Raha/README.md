@@ -1,5 +1,5 @@
 # Earthy-Group2
-[website](https://thijmen38.github.io/Earthy-Group2/about/)
+[website](https://thijmen38.github.io/Earthy-Group2)
 
 # Design problems
 ## Problem statement
