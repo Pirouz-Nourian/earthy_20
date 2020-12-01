@@ -1,9 +1,12 @@
-# [AR3B011](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48158&_NotifyTextSearch_): Earthy: Generative Design for Earth and Masonry Architecture 
+This is an eBook containing the final reports and the procedures developed by Earthy students in 2020, edited by Shervin Azadi and Pirouz Nourian.
+Citation Info:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4297471.svg)](https://doi.org/10.5281/zenodo.4297471)
 
+# [AR3B011](http://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48158&_NotifyTextSearch_): Earthy: Generative Design for Earth and Masonry Architecture 
+MSc3 Design Studio 2020-21, 
 
-MSc3 Design Studio 2020-21, ![Logo](https://github.com/Pirouz-Nourian/earthy_20/blob/master/Logo_Icon_Emblem.png)
+![Logo](https://github.com/Pirouz-Nourian/earthy_20/blob/master/Logo_Icon_Emblem.png)
 
 <img src="_course_info/image1.png"/>
 
