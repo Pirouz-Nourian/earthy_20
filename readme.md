@@ -10,8 +10,6 @@ MSc3 Design Studio 2020-21,
 
 [![IMAGE ALT TEXT HERE](https://github.com/Pirouz-Nourian/earthy_20/blob/master/_course_info/Earthy3.0_Video_Thumbnail.PNG)](https://youtu.be/I0GAzDlTc9E)
 
-<> (<img src="https://github.com/Pirouz-Nourian/earthy_20/blob/master/_course_info/EARTHY_Visual.png"/>)
-
 ## Introduction
 
 EARTHY is a master’s level design studio with the aim of designing and
