@@ -8,7 +8,9 @@ MSc3 Design Studio 2020-21,
 
 ![Logo](https://github.com/Pirouz-Nourian/earthy_20/blob/master/Logo_Icon_Emblem.png)
 
-<img src="https://github.com/Pirouz-Nourian/earthy_20/blob/master/_course_info/EARTHY_Visual.png"/>
+[![IMAGE ALT TEXT HERE](https://github.com/Pirouz-Nourian/earthy_20/blob/master/_course_info/Earthy3.0_Video_Thumbnail.PNG)](https://youtu.be/I0GAzDlTc9E)
+
+~~<img src="https://github.com/Pirouz-Nourian/earthy_20/blob/master/_course_info/EARTHY_Visual.png"/>~~
 
 ## Introduction
 
