@@ -48,10 +48,6 @@ tackled via computation.
                 <a href="mailto:FAVeer@tudelft.nl">Dr. Ir. Fred Veer</a> (TU Delft, Structural Design &amp; Mechanics-FVR)<br>
             </td>
         </tr>
-        <tr>
-            <td>Responsible</td>
-            <td><a href="mailto:i.s.sariyildiz@tudelft.nl">Prof. Dr. Ir. Sevil Sariyildiz</a> (TU Delft, Design Informatics, SSZ)</td>
-        </tr>
     </tbody>
     <thead>
         <tr class="header">
